@@ -20,7 +20,7 @@ dark.write(f"Score:{score}",align="center",font=("Courier", 24, "normal"))
 #game over 
 def gameover():
    dark.home()
-   dark.write(f"Nee Avamaata",align="center",font=("courier",24,"normal"))
+   dark.write(f"Game Over",align="center",font=("courier",24,"normal"))
 def increasescore():
    dark.write(f"Score:{score}",align="center",font=("Courier", 24, "normal"))
 
